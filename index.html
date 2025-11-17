@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="inputSection">
+            <input type="text" placeholder="Town" class="input">
+            <button class="btn">Search</button>
+        </div>
+        <div class="infoPlace">
+            <video autoplay muted loop class="bg-video" id="weather-video"  playsinline muted  loop style="display:none;">
+                <source src=""/>
+            </video>
+            <div class="townName"></div>
+            <div class="disc"></div>
+            <div class="cels"></div>
+        </div>
+        <p class="error-message" style="color: red; margin-top: 10px; display: none;">
+            City not found. Please try again.
+        </p>
+
+    </div>
+</body>
+
+</html>
