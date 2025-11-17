@@ -71,23 +71,23 @@
             switch (weatherMain) {
                 case "Clouds":
                     className = "infoPlace ";
-                    videoSrc = "public/cloud.mp4";
+                    videoSrc = "/cloud.mp4";
                     break;
                 case "Rain":
                     className = "infoPlace ";
-                    videoSrc = "public/rainy.mp4";
+                    videoSrc = "/rainy.mp4";
                     break;
                 case "Clear":
                     className = "infoPlace ";
-                    videoSrc = "public/clear.mp4";
+                    videoSrc = "/clear.mp4";
                     break;
                 case "Snow":
                     className = "infoPlace ";
-                    videoSrc = "public/snow.mp4";
+                    videoSrc = "/snow.mp4";
                     break;
                 case "Thunderstorm":
                     className = "infoPlace ";
-                    videoSrc = "public/thunderstorm.mp4";
+                    videoSrc = "/thunderstorm.mp4";
                     break;
                 default:
                     className = "infoPlace defaultWeather";
